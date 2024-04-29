@@ -1,0 +1,112 @@
+  /* SiteLogo */
+.logo{
+width: 86px;
+height: 26px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 26px;}
+/* identical to box height */
+
+.logo{color: #000000;
+}
+
+/* Inside auto layout */
+.logo{flex: none;
+order: 3;
+flex-grow: 0;
+}
+
+  /* Style the links inside the navigation bar */
+  .topnav  a{
+
+    float: right;
+    color:black;
+    text-align: end;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+ 
+    color:black;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  }
+  .btn{
+    position: relative;
+    left: 1300px;
+    top: 20px;
+    border: 2px solid;
+
+border-image-source: linear-gradient(90deg, #F857A6 0%, #FF5858 100%);}
+
+
+  .image{
+    /* image 152 */
+
+position: absolute;
+width: 1376px;
+height: 696px;
+left: 32px;
+top: 88px;
+
+background: url(./images/image\ 152.png);
+border-radius: 30px;
+
+  }
+  .h1 {position: relative;
+    top: 200px;
+    left: 80px;
+color: white;
+  }
+  .span{
+  font-family: Roboto;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 60.94px;
+  text-align: left;
+  }
+  
+  .para {position: relative;
+        top: 200px;
+        left: 80px;
+    color: white;
+      }
+      .button {
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;position: relative;
+        top: 200px;
+        left: 80px;
+      }
+      
+      .button {
+        background: linear-gradient(90deg, #F857A6 0%, #FF5858 100%);
+        color: black;
+        border:  solid purple;
+      }
+      
+      .button:hover {
+        background-color:palevioletred;
+      }
